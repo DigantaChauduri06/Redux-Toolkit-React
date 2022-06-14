@@ -25,7 +25,7 @@ Not allowed to directly update the state object
 Scan the QR code and place an order - CAKE_ORDERED
 ```
 {
-    type: 'CAKE_ORDERED
+    type: 'CAKE_ORDERED'
 }
 ```
 
@@ -33,13 +33,13 @@ Scan the QR code and place an order - CAKE_ORDERED
 ```
 const orderCake = () => {
     return {
-        type: CAKE_ORDERED,
+        type: 'CAKE_ORDERED',
         payload: 1
     }
 }
 const restockCake = (payload = 1) => {
     return {
-        type: CAKE_RESTOCKED,
+        type: 'CAKE_RESTOCKED',
         payload
     }
 }
