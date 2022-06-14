@@ -1,5 +1,4 @@
 <h1> Three Principles</h1>
------------------------------------------------
 <h2>First Principle: - </h2>
 - "The global state of your application is stored as an object inside a single store"
 
